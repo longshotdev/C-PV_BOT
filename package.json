@@ -1,0 +1,21 @@
+{
+  "name": "PV-BOT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/longshotdev/C-PV_BOT.git",
+  "author": "AndyIsCool5463 <andyl5463@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "production": "cross-env NODE_ENV=production node index.js"
+  },
+  "dependencies": {
+    "better-sqlite-pool": "^0.3.0",
+    "cross-env": "^7.0.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.2.4",
+    "uuid": "^8.1.0",
+    "washyourmouthoutwithsoap": "^1.0.2"
+  }
+}
